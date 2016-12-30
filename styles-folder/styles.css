@@ -1,0 +1,77 @@
+div {
+	margin:0;
+	padding:0;
+}
+div div {
+	background-color:#82C129;
+	position:relative;
+}
+.android {
+	height:404px;
+	width:334px;
+	margin:100px auto;
+}
+.head {
+	height:100px;
+	width:220px;
+	top:32px;
+	border-radius:100px 100px 0 0;
+}
+.l_eye,.r_eye {
+	height:16px;
+	width:16px;
+	border-radius:100px;
+	background-color:white;
+	position:absolute;
+	top:50px;
+}
+.l_eye {
+	margin-left:50px;
+}
+.r_eye {
+	margin-left:150px;
+}
+.l_ant,.r_ant {
+	height:50px;
+	width:10px;
+	border-radius:100px;
+	position:absolute;
+	top:-34px;
+}
+.l_ant {
+	margin-left:40px;
+	transform: rotate(-30deg);
+}
+.r_ant {
+	margin-left:170px;
+	transform: rotate(30deg);
+}
+.body {
+	border-radius:0 0 50px 50px;
+	height:204px;
+	width:220px;
+	margin-top:45px;
+	position:relative;
+}
+.r_leg,.l_leg,.r_arm,.l_arm {
+	border-radius:100px;
+	position:absolute;
+	height:125px;
+	width:50px;
+}
+.l_leg {
+	top:180px;
+	margin-left:125px;
+}
+.r_leg {
+	top:180px;
+	margin-left:40px;
+}
+.r_arm {
+	top:1px;
+	margin-left:225px;
+}
+.l_arm {
+	top:1px;
+	margin-left:-54px;
+}
